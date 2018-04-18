@@ -1,0 +1,11 @@
+<div class="main">
+  <div class="container">
+    <% @destinations.each do |destination| %>
+      <div>
+        <img src="<%= destination.image %>">
+        <h3><%= destination.name %></h3>
+        <p><%= destination.description %></p>
+      </div>
+    <% end %>
+  </div>
+</div>
