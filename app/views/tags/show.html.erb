@@ -5,6 +5,7 @@
         <img src="<%= destination.image %>">
         <h3><%= destination.name %></h3>
         <p><%= destination.description %></p>
+        <%= link_to "Show more", destination_path(destination) %>
       </div>
     <% end %>
   </div>

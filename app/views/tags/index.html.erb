@@ -2,5 +2,6 @@
 <div class="card">
   <img src="<%=tag.image%>">
   <h2><%= tag.title %></h2>
+  <%= link_to "Learn More...", tag_path(tag)%>
 </div>
 <% end %>
